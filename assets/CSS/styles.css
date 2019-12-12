@@ -1,0 +1,69 @@
+.text-success{
+    font-family: 'Princess Sofia', cursive;
+    text-shadow: 1px 1px black;
+}
+#s1-header {
+    background: #1e1109;
+}
+#s2-trio {
+    background: #fefaf7;
+}
+#s3-image-of-the-week {
+    background: #26221f;
+}
+#s4-about {
+    background: #f0e9df;
+}
+#s5-landmarks {
+    background: #fefaf7;
+}
+#s6-people {
+    background: #414046;
+}
+#s7-places {
+    background: #f0e9df;
+}
+#s8-contact {
+    background: #fefaf7;
+}
+#s9-footer {
+    background: #414046;
+}
+#s10-copyright {
+    background: #000;
+}
+
+/* s1-header */
+#s1-header{
+    background: url('../Images/header/nigeria-flag-made-glitter-sparkle-brush.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+}
+#s1-header aside{
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 4/5;
+
+}
+@media(max-width:992px) {
+    #s1header{
+        height:50vh;
+    }
+    #s1-header h5{
+        font-size: 12px;
+    }
+}
+/* s2-trio */
+/* s3-image-of-the-week */
+/* s4-about */
+/* s5-people */
+/* s6-landmarks */
+/* s7-places */
+/* s8-contact */
+/* s9-footer */
+/* s10-copyright */
